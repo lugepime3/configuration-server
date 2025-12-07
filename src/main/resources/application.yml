@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: configuration-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: h
+
+server:
+  port: 8888
+
+eureka:
+  instance:
+    hostname: localhost
