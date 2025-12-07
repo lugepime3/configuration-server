@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: h
+          uri: 'https://github.com/lugepime3/configuration-server.git'
 
 server:
   port: 8888
